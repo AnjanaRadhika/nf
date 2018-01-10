@@ -13,7 +13,7 @@ body {
 
 .modal-open {
     overflow: visible;
-}	
+}
 #navbar {
 	height:60px;
 	width:100%;
@@ -29,7 +29,7 @@ body {
 	color:white;
 	background-color:#555555;
 }
-	
+
 #menu {
 	margin:2px;
 	height:100%;
@@ -60,7 +60,7 @@ body {
 }
 #domain {
 	position:relative;
-	top:2px;	
+	top:2px;
 }
 #head {
 	font-weight:bold;
@@ -85,7 +85,7 @@ body {
 	position:relative;
 	top:2px;
 	padding-right:45px;
-}	
+}
 #signin-div{
 	text-align: right;
 	font-weight:normal;
@@ -94,7 +94,7 @@ body {
 }
 #signin-div:hover {
 	color:#72B944;
-}	
+}
 
 #inputwrapper {
 	height:100px;
@@ -106,15 +106,15 @@ body {
 	color:black;
 	font-size:17px;
 	height:40px;
-	padding:10px;
-	margin-right:3px;
+	padding:5px;
+	margin-right:1px;
 }
 
 h1 {
 	position:relative;
 	top:20px;
 	font-size:500%;
-	color:#C2561A;	
+	color:#C2561A;
 }
 #content-wrapper {
 	background-color:white;
@@ -162,17 +162,17 @@ h1 {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}	
+}
 .cellimg {
 	padding:5px;
 	width:200px;
 	height:150px;
-}	
+}
 #picturetable {
 	border:collapse;
 }
 td + td { border-left: 2px ridge green; }
-tr + tr { border-top: 2px ridge green; }	
+tr + tr { border-top: 2px ridge green; }
 tr + tr > td,
 tr + tr > th { border-top: 1px solid green; }
 
@@ -186,7 +186,7 @@ h3 {
 	font-size:35px;
 }
 #footer {
-  
+
 	background-color: darkgreen;
 	padding-top: 150px;
 	margin-top: 50px;
@@ -194,7 +194,7 @@ h3 {
 	padding-bottom: 150px;
 	width:100%;
 	height:30px;
-	border:1px solid #CACACA; 
+	border:1px solid #CACACA;
 }
 #signupdiv{
 	opacity:0.92;
@@ -221,7 +221,7 @@ h3 {
 	height: 100%;
 	width: 100%;
 	background: #000;
-	display: none;	
+	display: none;
 }
 #updatepwddiv {
 	opacity:0.92;
@@ -230,7 +230,7 @@ h3 {
 	height: 100%;
 	width: 100%;
 	background: #000;
-	display: none;	
+	display: none;
 }
 div.popup h2 {
 	font-size:35px;
@@ -238,21 +238,21 @@ div.popup h2 {
 	text-shadow:0.5px 0px 2px gray;
 	color:#3e8e41;
 	position:relative;
-	top:-15px;		
+	top:-15px;
 }
 div.popup h4 {
 	text-align:center;
 	text-shadow:0.5px 0px 2px gray;
 	color:#3e8e41;
 	position:relative;
-	top:-15px;		
+	top:-15px;
 }
 div.popup input[type=button],input[type=submit],input[type=reset] {
 	height:25px!important;
 	margin-right:5px;
 	width:30%!important;
 	padding: 3px 5px!important;
-	font-size: 15px!important;	
+	font-size: 15px!important;
 	text-align: center;
 	cursor: pointer;
 	outline: none;
@@ -260,7 +260,7 @@ div.popup input[type=button],input[type=submit],input[type=reset] {
 	border: none;
 	border-radius: 15px!important;
 	box-shadow: 0 3px #999;
-	color:#FDFDFD!important;	
+	color:#FDFDFD!important;
 }
 
 div.popup input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover {background-color: #3e8e41}
@@ -269,7 +269,7 @@ div.popup input[type=button]:active,input[type=submit]:active,input[type=reset]:
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-} 
+}
 
 
 .popup input[type=text], input[type=email], input[type=password]{
@@ -287,10 +287,10 @@ textarea{
 	border-radius:3px;
 	padding:5px;
 	resize:none;
-}	
+}
 #login,#contact,#changepwd{
 	left: 40%;
-	top: 8%;	
+	top: 8%;
 	padding:15px;
 	width:330px;
 	margin:0px;
@@ -300,14 +300,14 @@ textarea{
 }
 #frmforgotpassword {
 	left: 35%;
-	top: 15%;	
+	top: 15%;
 	padding:15px;
 	width:500px;
 	margin:0px;
 	background-color:white;
 	position: relative;
-	border: 5px solid #3e8e41;	
-}	
+	border: 5px solid #3e8e41;
+}
 .img{
 	float: right;
 	font-size:20px;
@@ -317,11 +317,11 @@ textarea{
 	margin-top: -15px;
 	margin-right: -15px;
 	cursor:pointer;
-}	
+}
 #forgot {
 	font-weight:normal;
 	font-size:15px;
-	cursor:pointer;	
+	cursor:pointer;
 	color:#72B944;
 }
 #forgot:hover {
@@ -330,20 +330,20 @@ textarea{
 #signupclick {
 	font-weight:normal;
 	font-size:15px;
-	cursor:pointer;	
-	color:#72B944;		
+	cursor:pointer;
+	color:#72B944;
 }
 .signinclick, .backtosignin {
 	font-weight:normal;
 	font-size:15px;
-	cursor:pointer;	
-	color:#72B944;	
+	cursor:pointer;
+	color:#72B944;
 }
 #termsofuseclick{
 	font-weight:normal;
 	font-size:15px;
-	cursor:pointer;	
-	color:#72B944;	
+	cursor:pointer;
+	color:#72B944;
 }
 #forgotemail {
 	width:78%;
